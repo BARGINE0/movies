@@ -1,0 +1,22 @@
+.sox {
+    height: 3000px;
+}
+
+.episodes {
+    display: grid;
+    gap: 20px;
+    justify-content: start;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s1 {
+    display: grid;
+}
+
+.s2 {
+    display: grid;
+}
+
+.s3 {
+    display: grid;
+}

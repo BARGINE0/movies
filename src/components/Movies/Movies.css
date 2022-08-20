@@ -1,0 +1,149 @@
+.movies {
+    height: 150vh;
+
+}
+
+.movie-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.movie {
+    width: 150px;
+    height: 230px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    justify-self: center;
+    color: transparent;
+    
+}
+
+.movie:hover {
+    opacity: 0.5;
+    color: rgb(0, 0, 0, 2);
+    font-weight: bold;
+}
+
+.movie:nth-child(1) {
+    background-image: url('https://i.pinimg.com/736x/31/6f/d4/316fd47d2bafffee6e2d5fe32af79763.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(2) {
+    background-image: url('https://i.pinimg.com/originals/dd/58/62/dd586203382ee10102c591bff2a551b8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(3) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(4) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(5) {
+    background-image: url('https://movieposter.gr/1463-large_default/war-dogs.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(6) {
+    background-image: url('https://m.media-amazon.com/images/I/612SNEBDltL._AC_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(7) {
+    background-image: url('https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/taxi-driver-1976/large_7QgyUVIwo20tduM4yf43zjaGMbK.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(8) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_FMjpg_UX1000_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(9) {
+    background-image: url('https://i.ytimg.com/vi/oLG8dG-jVsU/movieposter_en.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(10) {
+    background-image: url('https://alternativemovieposters.com/wp-content/uploads/2020/03/curtis_1917.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(11) {
+    background-image: url('https://lastfm.freetls.fastly.net/i/u/ar0/4b68abf74fc076b8fe68b4a99684a437.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.movie:nth-child(12) {
+    background-image: url('https://stat1.bollywoodhungama.in/wp-content/uploads/2022/06/Minions-The-Rise-of-Gru-English.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(13) {
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/stellarvortex_genavailposter_v1_june22_lg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(14) {
+    background-image: url('https://i.pinimg.com/originals/11/1c/5c/111c5c9ad99661af2d80e38948cf29d8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(15) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(16) {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/5/5e/Fantastic_Beasts_and_Where_to_Find_Them_poster.png');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(17) {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/3/3c/Fantastic_Beasts_-_The_Crimes_of_Grindelwald_Poster.png');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(18) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(19) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.movie:nth-child(20) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-height:800px) {
+    .movies {
+        margin-bottom: 10pc;
+    }
+}

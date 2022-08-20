@@ -1,0 +1,85 @@
+.series {
+    min-height: 100vh;
+}
+
+.serie-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.serie {
+    width: 150px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.serie:hover {
+    opacity: 0.5;
+}
+
+.serie:nth-child(1) {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6dc7b88-fcb2-4fc1-97e3-319fe5c364a5/dekqdhy-76e78652-0b6a-46f1-a9ee-d5bc71bb81fd.png/v1/fill/w_1280,h_1280,q_80,strp/peaky_blinders_cover_5_by_theclontoons_dekqdhy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2E2ZGM3Yjg4LWZjYjItNGZjMS05N2UzLTMxOWZlNWMzNjRhNVwvZGVrcWRoeS03NmU3ODY1Mi0wYjZhLTQ2ZjEtYTllZS1kNWJjNzFiYjgxZmQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.TnYaNE0IU5qvwsJAZoxQ-IKvEkvYZ2DR9uPBmBasSq8');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(2) {
+    background-image: url('https://alternativemovieposters.com/wp-content/uploads/2022/07/Erika-Villeda_BreakingBad.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(3) {
+    background-image: url('https://flxt.tmsimg.com/assets/p8282918_b_v13_bk.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(4) {
+    background-image: url('https://play-lh.googleusercontent.com/Vm3I20PJwaYVj-KJg-x55OeMUDNuOpfEk-agEOU4SzQYIHmRwdm13urK2XiP4Vw4OaHQkNn7lV-qiYqvLg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(5) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(6) {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BNjRiYTIzZmUtMTFkNS00ZTM0LWE4ODAtMDliMGE4NzM5ZjVlXkEyXkFqcGdeQXVyNDQ0MTYzMDA@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(7) {
+    background-image: url('https://soap2day.ac/pic/tv/cover/aToxMTU1Ow.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(8) {
+    background-image: url('https://static.tvtropes.org/pmwiki/pub/images/bcs.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(9) {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Gotham_%28season_4%29.jpg/220px-Gotham_%28season_4%29.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.serie:nth-child(10) {
+    background-image: url('https://nashvillebookworm.files.wordpress.com/2020/06/johnwick.jpg');
+    background-size: cover;
+    background-position: center;
+}
