@@ -1,0 +1,17 @@
+.chap-con {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 1000px;
+}
+
+.chap {
+    font-weight: bold;
+    color: aqua;
+}
+
+@media (max-width:1200px) {
+    .chap-con {
+        width: 900px;
+    }
+}

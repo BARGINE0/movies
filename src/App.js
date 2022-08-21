@@ -32,6 +32,9 @@ import M20 from './pages/M/M20'
 
 import TWD1_1 from './pages/S/TWD/TWD1_1'
 
+import Jw_1 from './pages/S/JW/Jw_1';
+import Jw_2 from './pages/S/JW/Jw_2';
+import Jw_3 from './pages/S/JW/Jw_3';
 
 import Home from './components/Home/Home'
 
@@ -78,7 +81,9 @@ function App() {
       
       <Route path='/watch/TWD-1/1' element={<TWD1_1 />}/>
       
-      
+      <Route path='/watch/jw_1' element={<Jw_1 />}/>
+      <Route path='/watch/jw_2' element={<Jw_2 />}/>
+      <Route path='/watch/jw_3' element={<Jw_3 />}/>
       
       {/*SERIES
       <Route path='/watch/s-1' element={<S1 />}/>

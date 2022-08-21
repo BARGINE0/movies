@@ -16,7 +16,7 @@ function Series() {
             <Link to='/watch' className="serie"></Link>
             <Link to='/watch' className="serie"></Link>
             <Link to='/watch' className="serie"></Link>
-            <Link to='/watch' className="serie"></Link>
+            <Link to='/watch/jw_1' className="serie"></Link>
         </div>
     </div>
   )
