@@ -1,22 +1,82 @@
 .sox {
-    height: 3000px;
+    height: 2000px;
 }
 
 .episodes {
     display: grid;
-    gap: 20px;
+    gap: 50px;
     justify-content: start;
-    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    justify-content: center;
 }
 
 .s1 {
-    display: grid;
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    border: 2px solid #A5C9CA ;
+    color: #395B64;
 }
 
 .s2 {
-    display: grid;
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    border: 2px solid #A5C9CA ;
+    color: #395B64;
 }
 
 .s3 {
-    display: grid;
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    border: 2px solid #A5C9CA ;
+    color: #395B64;
+}
+
+.s4 {
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    border: 2px solid #A5C9CA ;
+    color: #395B64;
+}
+
+.s5 {
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    border: 2px solid #A5C9CA ;
+    color: #395B64;
+}
+
+.br-s {
+    color: #A5C9CA;
+}
+
+@media (max-width:1200px) {
+    .s1 {
+        width: 900px;
+    }
+
+    .s2 {
+        width: 900px;
+    }
+
+    .s3 {
+        width: 900px;
+    }
+
+    .s4 {
+        width: 900px;
+    }
+
+    .s5 {
+        width: 900px;
+    }
 }

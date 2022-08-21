@@ -9,6 +9,8 @@ import { Link } from 'react-scroll'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import Footer from './components/Footer/Footer';
 import Watch from './components/Watch/Watch'
+import Home from './components/Home/Home'
+
 import M1 from './pages/M/M1'
 import M2 from './pages/M/M2'
 import M3 from './pages/M/M3'
@@ -36,7 +38,72 @@ import Jw_1 from './pages/S/JW/Jw_1';
 import Jw_2 from './pages/S/JW/Jw_2';
 import Jw_3 from './pages/S/JW/Jw_3';
 
-import Home from './components/Home/Home'
+import Br1_1 from './pages/S/BR-BA/Br1_1'
+import Br1_2 from './pages/S/BR-BA/Br1_2'
+import Br1_3 from './pages/S/BR-BA/Br1_3'
+import Br1_4 from './pages/S/BR-BA/Br1_4'
+import Br1_5 from './pages/S/BR-BA/Br1_5'
+import Br1_6 from './pages/S/BR-BA/Br1_6'
+import Br1_7 from './pages/S/BR-BA/Br1_7'
+
+import Br2_1 from './pages/S/BR-BA/Br2_1'
+import Br2_2 from './pages/S/BR-BA/Br2_2'
+import Br2_3 from './pages/S/BR-BA/Br2_3'
+import Br2_4 from './pages/S/BR-BA/Br2_4'
+import Br2_5 from './pages/S/BR-BA/Br2_5'
+import Br2_6 from './pages/S/BR-BA/Br2_6'
+import Br2_7 from './pages/S/BR-BA/Br2_7'
+import Br2_8 from './pages/S/BR-BA/Br2_8'
+import Br2_9 from './pages/S/BR-BA/Br2_9'
+import Br2_10 from './pages/S/BR-BA/Br2_10'
+import Br2_11 from './pages/S/BR-BA/Br2_11'
+import Br2_12 from './pages/S/BR-BA/Br2_12'
+import Br2_13 from './pages/S/BR-BA/Br2_13'
+
+import Br3_1 from './pages/S/BR-BA/Br3_1'
+import Br3_2 from './pages/S/BR-BA/Br3_2'
+import Br3_3 from './pages/S/BR-BA/Br3_3'
+import Br3_4 from './pages/S/BR-BA/Br3_4'
+import Br3_5 from './pages/S/BR-BA/Br3_5'
+import Br3_6 from './pages/S/BR-BA/Br3_6'
+import Br3_7 from './pages/S/BR-BA/Br3_7'
+import Br3_8 from './pages/S/BR-BA/Br3_8'
+import Br3_9 from './pages/S/BR-BA/Br3_9'
+import Br3_10 from './pages/S/BR-BA/Br3_10'
+import Br3_11 from './pages/S/BR-BA/Br3_11'
+import Br3_12 from './pages/S/BR-BA/Br3_12'
+import Br3_13 from './pages/S/BR-BA/Br3_13'
+
+import Br4_1 from './pages/S/BR-BA/Br4_1'
+import Br4_2 from './pages/S/BR-BA/Br4_2'
+import Br4_3 from './pages/S/BR-BA/Br4_3'
+import Br4_4 from './pages/S/BR-BA/Br4_4'
+import Br4_5 from './pages/S/BR-BA/Br4_5'
+import Br4_6 from './pages/S/BR-BA/Br4_6'
+import Br4_7 from './pages/S/BR-BA/Br4_7'
+import Br4_8 from './pages/S/BR-BA/Br4_8'
+import Br4_9 from './pages/S/BR-BA/Br4_9'
+import Br4_10 from './pages/S/BR-BA/Br4_10'
+import Br4_11 from './pages/S/BR-BA/Br4_11'
+import Br4_12 from './pages/S/BR-BA/Br4_12'
+import Br4_13 from './pages/S/BR-BA/Br4_13'
+
+import Br5_1 from './pages/S/BR-BA/Br5_1'
+import Br5_2 from './pages/S/BR-BA/Br5_2'
+import Br5_3 from './pages/S/BR-BA/Br5_3'
+import Br5_4 from './pages/S/BR-BA/Br5_4'
+import Br5_5 from './pages/S/BR-BA/Br5_5'
+import Br5_6 from './pages/S/BR-BA/Br5_6'
+import Br5_7 from './pages/S/BR-BA/Br5_7'
+import Br5_8 from './pages/S/BR-BA/Br5_8'
+import Br5_9 from './pages/S/BR-BA/Br5_9'
+import Br5_10 from './pages/S/BR-BA/Br5_10'
+import Br5_11 from './pages/S/BR-BA/Br5_11'
+import Br5_12 from './pages/S/BR-BA/Br5_12'
+import Br5_13 from './pages/S/BR-BA/Br5_13'
+import Br5_14 from './pages/S/BR-BA/Br5_14'
+import Br5_15 from './pages/S/BR-BA/Br5_15'
+import Br5_16 from './pages/S/BR-BA/Br5_16'
 
 function App() {
   const [visible, setVisible] = useState();
@@ -79,12 +146,87 @@ function App() {
       <Route path='/watch/m-19' element={<M19 />}/>
       <Route path='/watch/m-20' element={<M20 />}/>
       
+      {/*the walking dead*/}
       <Route path='/watch/TWD-1/1' element={<TWD1_1 />}/>
       
+      {/*jhon wick*/}
       <Route path='/watch/jw_1' element={<Jw_1 />}/>
       <Route path='/watch/jw_2' element={<Jw_2 />}/>
       <Route path='/watch/jw_3' element={<Jw_3 />}/>
+
       
+      {/*breaking bad s1*/}
+      <Route path='/watch/br_1/1' element={<Br1_1 />}/>
+      <Route path='/watch/br_1/2' element={<Br1_2 />}/>
+      <Route path='/watch/br_1/3' element={<Br1_3 />}/>
+      <Route path='/watch/br_1/4' element={<Br1_4 />}/>
+      <Route path='/watch/br_1/5' element={<Br1_5 />}/>
+      <Route path='/watch/br_1/6' element={<Br1_6 />}/>
+      <Route path='/watch/br_1/7' element={<Br1_7 />}/>
+
+      {/*breaking bad s2*/}
+      <Route path='/watch/br_2/1' element={<Br2_1 />}/>
+      <Route path='/watch/br_2/2' element={<Br2_2 />}/>
+      <Route path='/watch/br_2/3' element={<Br2_3 />}/>
+      <Route path='/watch/br_2/4' element={<Br2_4 />}/>
+      <Route path='/watch/br_2/5' element={<Br2_5 />}/>
+      <Route path='/watch/br_2/6' element={<Br2_6 />}/>
+      <Route path='/watch/br_2/7' element={<Br2_7 />}/>
+      <Route path='/watch/br_2/8' element={<Br2_8 />}/>
+      <Route path='/watch/br_2/9' element={<Br2_9 />}/>
+      <Route path='/watch/br_2/10' element={<Br2_10 />}/>
+      <Route path='/watch/br_2/11' element={<Br2_11 />}/>
+      <Route path='/watch/br_2/12' element={<Br2_12 />}/>
+      <Route path='/watch/br_2/13' element={<Br2_13 />}/>
+
+      {/*breaking bad s3*/}
+      <Route path='/watch/br_3/1' element={<Br3_1 />}/>
+      <Route path='/watch/br_3/2' element={<Br3_2 />}/>
+      <Route path='/watch/br_3/3' element={<Br3_3 />}/>
+      <Route path='/watch/br_3/4' element={<Br3_4 />}/>
+      <Route path='/watch/br_3/5' element={<Br3_5 />}/>
+      <Route path='/watch/br_3/6' element={<Br3_6 />}/>
+      <Route path='/watch/br_3/7' element={<Br3_7 />}/>
+      <Route path='/watch/br_3/8' element={<Br3_8 />}/>
+      <Route path='/watch/br_3/9' element={<Br3_9 />}/>
+      <Route path='/watch/br_3/10' element={<Br3_10 />}/>
+      <Route path='/watch/br_3/11' element={<Br3_11 />}/>
+      <Route path='/watch/br_3/12' element={<Br3_12 />}/>
+      <Route path='/watch/br_3/13' element={<Br3_13 />}/>
+
+      {/*breaking bad s4*/}
+      <Route path='/watch/br_4/1' element={<Br4_1 />}/>
+      <Route path='/watch/br_4/2' element={<Br4_2 />}/>
+      <Route path='/watch/br_4/3' element={<Br4_3 />}/>
+      <Route path='/watch/br_4/4' element={<Br4_4 />}/>
+      <Route path='/watch/br_4/5' element={<Br4_5 />}/>
+      <Route path='/watch/br_4/6' element={<Br4_6 />}/>
+      <Route path='/watch/br_4/7' element={<Br4_7 />}/>
+      <Route path='/watch/br_4/8' element={<Br4_8 />}/>
+      <Route path='/watch/br_4/9' element={<Br4_9 />}/>
+      <Route path='/watch/br_4/10' element={<Br4_10 />}/>
+      <Route path='/watch/br_4/11' element={<Br4_11 />}/>
+      <Route path='/watch/br_4/12' element={<Br4_12 />}/>
+      <Route path='/watch/br_4/13' element={<Br4_13 />}/>
+
+      {/*breaking bad s5*/}
+      <Route path='/watch/br_5/1' element={<Br5_1 />}/>
+      <Route path='/watch/br_5/2' element={<Br5_2 />}/>
+      <Route path='/watch/br_5/3' element={<Br5_3 />}/>
+      <Route path='/watch/br_5/4' element={<Br5_4 />}/>
+      <Route path='/watch/br_5/5' element={<Br5_5 />}/>
+      <Route path='/watch/br_5/6' element={<Br5_6 />}/>
+      <Route path='/watch/br_5/7' element={<Br5_7 />}/>
+      <Route path='/watch/br_5/8' element={<Br5_8 />}/>
+      <Route path='/watch/br_5/9' element={<Br5_9 />}/>
+      <Route path='/watch/br_5/10' element={<Br5_10 />}/>
+      <Route path='/watch/br_5/11' element={<Br5_11 />}/>
+      <Route path='/watch/br_5/12' element={<Br5_12 />}/>
+      <Route path='/watch/br_5/13' element={<Br5_13 />}/>
+      <Route path='/watch/br_5/14' element={<Br5_14 />}/>
+      <Route path='/watch/br_5/15' element={<Br5_15 />}/>
+      <Route path='/watch/br_5/16' element={<Br5_16 />}/>
+
       {/*SERIES
       <Route path='/watch/s-1' element={<S1 />}/>
       <Route path='/watch/s-2' element={<S2 />}/>
