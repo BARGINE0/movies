@@ -1,5 +1,5 @@
 .sox {
-    height: 2000px;
+    height: 2200px;
 }
 
 .episodes {
@@ -8,6 +8,15 @@
     justify-content: start;
     width: 1000px;
     justify-content: center;
+}
+
+.s0 {
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    border: 2px solid #A5C9CA ;
+    color: #395B64;
 }
 
 .s1 {

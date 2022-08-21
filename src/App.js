@@ -38,6 +38,18 @@ import Jw_1 from './pages/S/JW/Jw_1';
 import Jw_2 from './pages/S/JW/Jw_2';
 import Jw_3 from './pages/S/JW/Jw_3';
 
+import Br0_1 from './pages/S/BR-BA/Br0_1'
+import Br0_2 from './pages/S/BR-BA/Br0_2'
+import Br0_3 from './pages/S/BR-BA/Br0_3'
+import Br0_4 from './pages/S/BR-BA/Br0_4'
+import Br0_5 from './pages/S/BR-BA/Br0_5'
+import Br0_6 from './pages/S/BR-BA/Br0_6'
+import Br0_7 from './pages/S/BR-BA/Br0_7'
+import Br0_8 from './pages/S/BR-BA/Br0_8'
+import Br0_9 from './pages/S/BR-BA/Br0_9'
+import Br0_10 from './pages/S/BR-BA/Br0_10'
+import Br0_11 from './pages/S/BR-BA/Br0_11'
+
 import Br1_1 from './pages/S/BR-BA/Br1_1'
 import Br1_2 from './pages/S/BR-BA/Br1_2'
 import Br1_3 from './pages/S/BR-BA/Br1_3'
@@ -154,6 +166,19 @@ function App() {
       <Route path='/watch/jw_2' element={<Jw_2 />}/>
       <Route path='/watch/jw_3' element={<Jw_3 />}/>
 
+
+      {/*breaking bad specials*/}
+      <Route path='/watch/br_0/1' element={<Br0_1 />}/>
+      <Route path='/watch/br_0/2' element={<Br0_2 />}/>
+      <Route path='/watch/br_0/3' element={<Br0_3 />}/>
+      <Route path='/watch/br_0/4' element={<Br0_4 />}/>
+      <Route path='/watch/br_0/5' element={<Br0_5 />}/>
+      <Route path='/watch/br_0/6' element={<Br0_6 />}/>
+      <Route path='/watch/br_0/7' element={<Br0_7 />}/>
+      <Route path='/watch/br_0/8' element={<Br0_8 />}/>
+      <Route path='/watch/br_0/9' element={<Br0_9 />}/>
+      <Route path='/watch/br_0/10' element={<Br0_10 />}/>
+      <Route path='/watch/br_0/11' element={<Br0_11 />}/>
       
       {/*breaking bad s1*/}
       <Route path='/watch/br_1/1' element={<Br1_1 />}/>
