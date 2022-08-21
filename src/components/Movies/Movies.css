@@ -1,6 +1,6 @@
 .movies {
     height: 150vh;
-
+    
 }
 
 .movie-con {
@@ -144,6 +144,6 @@
 
 @media (max-height:800px) {
     .movies {
-        margin-bottom: 10pc;
+        margin-bottom: 15pc;
     }
 }
