@@ -32,8 +32,6 @@ import M18 from './pages/M/M18'
 import M19 from './pages/M/M19'
 import M20 from './pages/M/M20'
 
-import TWD1_1 from './pages/S/TWD/TWD1_1'
-
 import Jw_1 from './pages/S/JW/Jw_1';
 import Jw_2 from './pages/S/JW/Jw_2';
 import Jw_3 from './pages/S/JW/Jw_3';
@@ -157,9 +155,6 @@ function App() {
       <Route path='/watch/m-18' element={<M18 />}/>
       <Route path='/watch/m-19' element={<M19 />}/>
       <Route path='/watch/m-20' element={<M20 />}/>
-      
-      {/*the walking dead*/}
-      <Route path='/watch/TWD-1/1' element={<TWD1_1 />}/>
       
       {/*jhon wick*/}
       <Route path='/watch/jw_1' element={<Jw_1 />}/>
