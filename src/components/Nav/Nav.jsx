@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import { Link } from 'react-scroll'
+import { BiSearchAlt } from 'react-icons/bi'
 
 function Nav() {
   return (
@@ -12,7 +13,7 @@ function Nav() {
                 <Link to='movies' spy={true} smooth={true}  offset={0} duration={1000} className='links'>MOVIES</Link>
                 <Link to='series' spy={true} smooth={true}  offset={0} duration={1000} className='links'>TV SERIES</Link>
             </nav>
-            <input type="search" className='search' placeholder='Search...'/>
+            <button className='search'><BiSearchAlt /></button>
         </div>
     </div>
   )

@@ -1,22 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
 @import "react-alice-carousel/lib/alice-carousel.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #323232;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #14FFEC;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #14ffeb9d;
+}
 
 * {
   padding: 0;
   margin: 0;
+  -moz-padding: 0;
+  -moz-margin: 0;
+  -webkit-padding: 0;
+  -webkit-margin: 0;
 }
 
 a {
-  color: #395B64;
   text-decoration: none;
 }
 
 body {
-  background-color: #2C3333;
+  background-color: #212121;
   display: grid;
   justify-content: center;
   color: #b10e62;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Dosis', sans-serif;
   text-align: center;
   overflow-x: hidden;
 }
@@ -24,28 +51,23 @@ body {
 .App {
   max-width: 1000px;
   width: 1000px;
-  background-color: #2C3333;
+  background-color: #212121;
   min-height: 100vh;
-  color: white;
-  font-family: 'Noto Serif JP', serif;
-  color: #A5C9CA;
+  color: #14FFEC;
   text-align: center;
-
 }
 
 .top {
   position: fixed;
-  right: 50px;
-  bottom: 140px;
-  height: 60px;
-  width: 60px;
-  padding-bottom: 10px;
-  font-size: 3rem;
-  font-weight: bold;
+  right: 20px;
+  bottom: 100px;
+  height: 40px;
+  width: 40px;
+  color: #14FFEC;
+  font-size: 2rem;
   display: none;
-  color: rgb(0, 0, 0);
-  background-color: white;
-  border-radius: 10px;
+  background-color: #323232;
+  border-radius: 5px;
 }
 
 .top-af {

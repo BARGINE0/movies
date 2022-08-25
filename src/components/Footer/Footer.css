@@ -1,7 +1,8 @@
 .footer {
-    height: 4rem;
-    border-top: 3px solid #395B64;
-    border-bottom: 3px solid #395B64;
-    border-radius: 10px;
+    height: 3rem;
+    border-top: 3px solid #323232;
+    border-bottom: 3px solid #323232;
+    border-radius: 20px;
     margin-bottom: 10px;
+    padding-bottom: 6px;
 }

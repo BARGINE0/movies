@@ -1,9 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import Nav from './components/Nav/Nav'
-import Carousel from './components/Carousel/Carousel'
-import Movies from './components/Movies/Movies'
-import Series from './components/Series/Series'
 import { BiUpArrowAlt } from 'react-icons/bi'
 import { Link } from 'react-scroll'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
@@ -116,6 +113,8 @@ import Br5_15 from './pages/S/BR-BA/Br5_15'
 import Br5_16 from './pages/S/BR-BA/Br5_16'
 
 function App() {
+
+
   const [visible, setVisible] = useState();
   const changeVisible= () => {
     if (window.scrollY >= 200) {

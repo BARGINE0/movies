@@ -7,8 +7,9 @@
 .car {
     width: 1000px;
     height: 50vh;
-    background-color: #395B64;
-    border-radius: 10px;
+    max-height: 600px;
+    background-color: #323232;
+    border-radius: 5px;
     justify-self: center;
     position: absolute;
     left: 50%;
