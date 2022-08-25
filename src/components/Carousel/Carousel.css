@@ -46,3 +46,27 @@
         width: 900px;
     }
 }
+
+@media (max-width: 1020px) {
+    .car {
+        width: 700px;
+    }
+}
+
+@media (max-width: 830px) {
+    .car {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .car {
+        width: 450px;
+    }
+}
+
+@media (max-width: 560px) {
+    .car {
+        width: 350px;
+    }
+}

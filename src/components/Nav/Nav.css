@@ -50,7 +50,37 @@ nav {
 
 @media (max-width: 1200px) {
     .navbar {
-        width: 90%;
+        width: 900px;
     }
 }
 
+@media (max-width: 1020px) {
+    .navbar {
+        width: 700px;
+    }
+}
+
+@media (max-width: 830px) {
+    .navbar {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        width: 450px;
+    }
+    .title {
+        padding-bottom: 2pc;
+    }
+}
+
+@media (max-width: 560px) {
+    .navbar {
+        width: 350px;
+    }
+    .title {
+        padding-bottom: 2pc;
+        font-size: 1.5rem;
+    }
+}

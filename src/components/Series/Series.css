@@ -1,5 +1,5 @@
 .series {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .serie-con {
@@ -82,4 +82,48 @@
     background-image: url('https://nashvillebookworm.files.wordpress.com/2020/06/johnwick.jpg');
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 1020px) {
+    .serie-con {
+        width: 700px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .series {
+        height: 150vh;
+    }
+}
+
+@media (max-width: 830px) {
+    .serie-con {
+        width: 550px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .series {
+        height: 170vh;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .serie-con {
+        width: 400px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .series {
+        height: 220vh;
+    }
+
+    .serie {
+        width: 160px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 560px) {
+    .serie-con {
+        width: 350px;
+    }
 }

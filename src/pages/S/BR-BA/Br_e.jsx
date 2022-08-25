@@ -5,7 +5,7 @@ import '../Seriess.css'
 function Br_e() {
   return (
     <div className='episodes'>
-        <div className="s0">
+        {/*<div className="s0">
             <h1>SPECIALS</h1>
             <br />
             <Link to='/watch/br_0/1' className="br-s">Episode 1</Link>&nbsp;&nbsp;
@@ -101,7 +101,7 @@ function Br_e() {
             <Link to='/watch/br_5/14' className="br-s">Episode 14</Link>&nbsp;&nbsp;
             <Link to='/watch/br_5/15' className="br-s">Episode 15</Link>&nbsp;&nbsp;
             <Link to='/watch/br_5/16' className="br-s">Episode 16</Link>
-        </div>
+  </div>*/}
     </div>
   )
 }

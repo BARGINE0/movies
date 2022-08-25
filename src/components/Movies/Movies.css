@@ -1,6 +1,5 @@
 .movies {
-    height: 150vh;
-    
+    min-height: 150vh;
 }
 
 .movie-con {
@@ -145,5 +144,47 @@
 @media (max-height:800px) {
     .movies {
         margin-bottom: 15pc;
+    }
+}
+
+@media (max-width: 1020px) {
+    .movie-con {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 700px;
+    }
+    .movies {
+        height: 200vh;
+    }
+}
+
+@media (max-width: 830px) {
+    .movie-con {
+        width: 550px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .movies {
+        height: 260vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .movie-con {
+        width: 400px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .movies {
+        height: 360vh;
+    }
+
+    .movie {
+        width: 160px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 560px) {
+    .movie-con {
+        width: 350px;
     }
 }

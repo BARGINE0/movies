@@ -38,6 +38,11 @@ a {
   text-decoration: none;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #212121;
   display: grid;
@@ -46,6 +51,7 @@ body {
   font-family: 'Dosis', sans-serif;
   text-align: center;
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 .App {

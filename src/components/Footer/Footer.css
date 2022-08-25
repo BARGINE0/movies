@@ -1,3 +1,7 @@
+.footer-con {
+    display: grid;
+}
+
 .footer {
     height: 3rem;
     border-top: 3px solid #323232;
@@ -5,4 +9,37 @@
     border-radius: 20px;
     margin-bottom: 10px;
     padding-bottom: 6px;
+    width: 1000px;
+    justify-self: center;
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .footer {
+        width: 700px;
+    }
+}
+
+@media (max-width: 830px) {
+    .footer {
+        width: 550px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .footer {
+        width: 450px;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer {
+        width: 350px;
+    }
 }
